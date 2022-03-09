@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Consolas, sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20vw;
+    min-height: 160px;
+}
+header > h1{
+    font-family: 'Passion One', cursive;
+    padding-top: 50px;
+    font-size: 8vw;
+    font-variant: small-caps;
+}
+header > p{
+    font-size: 1.1em;
+    padding-top: 0.8vw;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    font-family: cursive;
+    padding: 3vw;
+    font-size: 3vw;
+    line-height: 2em;
+}
+#img-1{
+    background-image: url(imagens/background001.jpg);
+}
+#img-2{
+    background-image: url(imagens/background002.jpg);
+}
+.img{
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+.img > p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.514);
+    display: inline-block;
+    padding: 0.8vw;
+    border-radius: 5px;
+}
